@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFEDD8;
+}
+
+#box{
+    width: clamp(20rem, 30vw, 30vw);
+    height: 55vh;
+    border: 3px solid black;
+    background-color: wheat;
+}
+
+#imageContainer{
+    width: clamp(19.7rem, 29.7vw, 30vw);
+    height: 45vh;
+    background-color: aquamarine;
+    filter: contrast();
+}
+
+img{
+    width: clamp(19.7rem, 29.7vw, 30vw);
+    height: 45vh;
+}
+
+#filterContainer{
+    height: 9.4vh;
+    width: clamp(19.7rem, 29.7vw, 30vw);
+    background-color: #1B4332;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.area{
+    border: 2px solid black;
+    border-radius: 12px;
+    justify-items: center;
+    padding: 5px;
+    background-color: #FFD166;
+}
+
+input{
+    width: clamp(5rem,8vw,8vw);
+    background: #FFB703;
+}
+
