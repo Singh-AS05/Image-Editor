@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editior</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="box">
+            <div id="imageContainer">
+                <img src="img1.jpg" id="img">
+            </div>
+            <div id="filterContainer">
+                <div class="area">
+                    <p class="text">Brightness</p>
+                    <input id="bright" type="range" min="0" max="200" oninput="brightness()">
+                </div>
+
+                <div class="area">
+                    <p class="text">Contrast</p>
+                    <input id="con" type="range" min="0" max="200" oninput="contrast()">
+                </div>
+
+                <div class="area">
+                    <p class="text">Saturation</p>
+                    <input id="satu" type="range" min="0" max="200" oninput="saturation()">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
